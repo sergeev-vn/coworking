@@ -1,0 +1,33 @@
+.breadcrumbs {
+    margin-bottom: 28px;
+}
+
+.breadcrumbs__item,
+.breadcrumbs__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__link {
+    color: rgba(236, 30, 121, 0.8);
+    font-style: italic;
+    text-decoration: underline #fbdfe8;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: rgba(34, 31, 31, 0.8);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.breadcrumbs__item:after {
+    content: '/';
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(34, 31, 31, 0.8);
+    font-style: italic;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}

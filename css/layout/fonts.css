@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "GothaPro";
+    src: url("../../fonts/GothaProLig.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothaPro";
+    src: url("../../fonts/GothaProBol.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../../fonts/MyriadPro.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/open-sans-bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Robotobold.woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/Robotolight.woff2");
+    font-weight: normal;
+    font-style: normal;
+}

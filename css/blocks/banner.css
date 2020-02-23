@@ -1,0 +1,9 @@
+.banner {
+    background-color: #27273e;
+    margin-bottom: 68px;
+}
+
+.banner__img {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+.delimiter {
+    background-color: #27273e;
+    padding: 42px 10px;
+    background-image: url('../../img/pattern.png');
+    margin-bottom: 56.5px;
+}
+
+.delimiter__container {
+    display: flex;
+    justify-content: center;
+}
+
+.delimiter__text p {
+    max-width: 613px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+.delimiter__text--bold {
+    color: #ec1e79;
+    font-size: 18px;
+    font-weight: bold;
+}

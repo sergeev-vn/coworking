@@ -1,0 +1,17 @@
+.contacts a {
+    display: block;
+    color: #fff;
+    text-align: right;
+}
+
+.contacts__phone {
+   font-weight: bold;
+   font-size: 21px;
+   margin-bottom: 6px;
+}
+
+.contacts .contacts__work {
+    color: rgba(236, 30, 121, 0.7);
+    font: bold normal 14px OpenSans;
+    text-decoration: underline;
+}

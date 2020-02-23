@@ -1,0 +1,70 @@
+.menu__link {
+    display: flex;
+    align-items: center;
+    color: #ec1e79;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.menu__link:hover {
+    color: #221f1f;
+}
+
+.menu__item--active .menu__link {
+    color: #221f1f;
+    text-decoration: underline #d4d4d4;
+}
+
+.menu__item {
+    margin-bottom: 30px;
+}
+
+.menu__link:before {
+    content: '';
+    display: block;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-right: 17px;
+}
+
+.menu__link--main-icon:before {
+    background-image: url('../../img/menu/main_icon.png');
+}
+
+.menu__link--feed-icon:before {
+    background-image: url('../../img/menu/feed_icon.png');
+}
+
+.menu__link--wallet-icon:before {
+    background-image: url('../../img/menu/wallet_icon.png');
+}
+
+.menu__link--main-icon:hover:before {
+    background-image: url('../../img/menu/main_icon_hover.png');
+}
+
+.menu__link--feed-icon:hover:before {
+    background-image: url('../../img/menu/feed_icon_hover.png');
+}
+
+.menu__link--wallet-icon:hover:before {
+    background-image: url('../../img/menu/wallet_icon_hover.png');
+}
+
+.menu__item--active .menu__link--main-icon:before {
+    background-image: url('../../img/menu/main_icon_hover.png');
+}
+
+.menu__item--active .menu__link--feed-icon:before {
+    background-image: url('../../img/menu/feed_icon_hover.png');
+}
+
+.menu__item--active .menu__link--wallet-icon:before {
+    background-image: url('../../img/menu/wallet_icon_hover.png');
+}

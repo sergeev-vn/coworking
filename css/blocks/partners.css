@@ -1,0 +1,27 @@
+.partners__list {
+    width: 778px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -36px;
+}
+
+.partners__item {
+    width: calc(100% / 3 - 22px);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.partners__pic {
+    filter: grayscale(100%);
+}
+
+.partners__link {
+    display: block;
+}
+
+.partners__pic:hover {
+    filter: none;
+}

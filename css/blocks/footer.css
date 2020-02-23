@@ -1,0 +1,23 @@
+footer {
+    min-height: 77px;
+    background: #27273e;
+    color: #fff;
+    padding: 11px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__info {
+    max-width: 30%;
+    line-height: 1.29;
+}
+
+.footer__info--link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline #5d5d6e;
+}
