@@ -14,6 +14,10 @@
     text-decoration: underline #fbdfe8;
 }
 
+.breadcrumbs__link:hover {
+    text-decoration: none;
+}
+
 .breadcrumbs__item--active .breadcrumbs__link {
     color: rgba(34, 31, 31, 0.8);
     text-decoration: none;

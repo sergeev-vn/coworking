@@ -25,83 +25,56 @@ ul li {
 
 .wrapper {
     overflow: hidden;
-    min-width: 1100px;
+    min-width: 1200px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.wrapper--intro {
+    min-width: 100%;
+}
+
 .wrapper__content {
     flex: 1;
-    margin-bottom: 49px;
 }
 
 .wrapper__content--bottom {
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 .container {
-    width: 1100px;
+    width: 1200px;
     height: 100%;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-.aside {
-    width: 17%;
-    flex: 0 0 auto;
 }
 
 .containter--flex {
     display: flex;
 }
 
-/* интро */
-.intro__btn-btn {
-    width: 182px;
-    height: 44px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #ec1e79;
-    outline: none;
-    background-color: transparent;
-    border: 3px solid #ec1e79;
-    cursor: pointer;
-}
-
-.intro__btn-btn:hover {
-    background-color: #ec1e79;
-    color: #fff;
-}
-
-.bg {
-    background-image: url('../../img/bg-intro.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-.container--intro {
+.containter--width {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 0 0 20px;
 }
-.intro {
+
+.container--banner {
+    padding: 0;
+}
+
+.aside {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    animation: jackInTheBox 800ms;
+    width: 23.5%;
+    margin-right: 24px;
+    flex: 0 0 auto;
 }
 
-.wrapper--intro {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.aside--margin {
+    margin-right: 19px;
 }
 
-.intro__logo {
-    margin-bottom: 30px;
+.wrapper__content--margin {
+    margin-bottom: 51px;
 }

@@ -1,8 +1,7 @@
 header {
-    min-height: 77px;
     background: #27273e;
     color: #fff;
-    padding: 11px 0;
+    padding: 7px 0;
 }
 
 .header__container {
@@ -12,5 +11,9 @@ header {
 } 
 
 .header--margin {
-    margin-bottom: 44px;
+    margin-bottom: 50px;
+}
+
+.header--margin-prices {
+    margin-bottom: 29px;
 }

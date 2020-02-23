@@ -1,17 +1,12 @@
 .delimiter {
     background-color: #27273e;
-    padding: 42px 10px;
+    padding: 24px 3%;
     background-image: url('../../img/pattern.png');
-    margin-bottom: 56.5px;
-}
-
-.delimiter__container {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 29px;
+    text-align: center;
 }
 
 .delimiter__text p {
-    max-width: 613px;
     color: #fff;
     font-size: 18px;
     line-height: 1.67;

@@ -20,4 +20,9 @@ footer {
     color: #fff;
     font-weight: bold;
     text-decoration: underline #5d5d6e;
+    transition: .3s;
+}
+
+.footer__info--link:hover {
+    text-decoration: none;
 }

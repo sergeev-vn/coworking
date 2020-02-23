@@ -1,0 +1,63 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: jackInTheBox 800ms 800ms forwards;
+}
+
+.welcome__logo {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.welcome__btn {
+    display: block;
+    padding: 13px 19px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold; 
+    color: #ec1e79;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid currentColor;
+    cursor: pointer;
+}
+
+.welcome__btn:hover {
+    background-color: #ec1e79;
+    border: 3px solid #ec1e79;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

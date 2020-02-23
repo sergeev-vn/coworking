@@ -1,25 +1,47 @@
+.partners {
+    border: 1px solid #e8e9ed;
+    width: 100%;
+    padding: 27px 60px;
+    margin-bottom: 44px;
+}
+
+.partners__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 .partners__list {
-    width: 778px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    margin-left: -36px;
 }
 
 .partners__item {
-    width: calc(100% / 3 - 22px);
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 44px;
+    flex: 1;
+    flex-basis: 300px;
 }
 
+.partners__item:last-child {
+    margin-bottom: 0px;
+}
 .partners__pic {
     filter: grayscale(100%);
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .partners__link {
-    display: block;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .partners__pic:hover {

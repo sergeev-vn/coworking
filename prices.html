@@ -13,53 +13,105 @@
 <body>
     <div class="wrapper">
         <div class="wrapper__content wrapper__content--bottom">
-            <header class="header header--margin">
+            <header class="header header--margin-prices">
                 <div class="container header__container">
-                    <a href="index.html" class="logo">
+                    <a href="main.html" class="logo">
                         <img src="./img/logo-fig.png" class="logo__img" alt="лого компании">
                     </a>
                     <address class="contacts">
-                        <a href="tel:+780000039210" class="contacts__phone">8 (800) 00-392-10</a>
-                        <a href="#" class="contacts__work">График работы</a>
-                    </address>
+                            <a href="tel:+780000039210" class="contacts__phone">8 (800) 00-392-10</a>
+                            <div class="contacts__work-hours">
+                                <a href="#" class="contacts__work-hours-trigger">График работы</a>
+                                <div class="contacts__dropdown">
+                                    <div class="contacts__hours">пн-вс: 09:00-20:00</div> 
+                                    <div class="contacts__lunch">обед: 14:00-14:30</div> 
+                                </div>
+                            </div>
+                        </address>
                 </div>
             </header>
 
             <div class="container containter--flex">
                 <aside class="aside">
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="index.html" class="menu__link menu__link--main-icon">Главная
-                                </a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="comments.html" class="menu__link menu__link--feed-icon">Отзывы
-                                </a>
-                            </li>
-                            <li class="menu__item menu__item--active">
-                                <a href="prices.html" class="menu__link menu__link--wallet-icon">Тарифы
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                        <section class="partners">
+                                <h2 class="partners__title">Партнёры</h2>
+                                <ul class="partners__list">
+                                    <li class="partners__item">
+                                        <a href="#" class="partners__link">
+                                            <img src="./img/partners/partner-1.png" class="partners__pic" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="partners__item">
+                                        <a href="#" class="partners__link">
+                                            <img src="./img/partners/partner-4.png" class="partners__pic" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="partners__item">
+                                            <a href="#" class="partners__link">
+                                                <img src="./img/partners/partner-2.png" class="partners__pic" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="partners__item">
+                                                <a href="#" class="partners__link">
+                                                    <img src="./img/partners/partner-3.png" class="partners__pic" alt="">
+                                                </a>
+                                            </li>
+                                    <li class="partners__item">
+                                        <a href="#" class="partners__link">
+                                            <img src="./img/partners/partner-5.png" class="partners__pic" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="partners__item">
+                                        <a href="#" class="partners__link">
+                                            <img src="./img/partners/partner-6.png" class="partners__pic" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                        <div class="social">
+                                <h3 class="social__title">Наши социальные сети</h3>
+                                <ul class="social__list">
+                                    <li class="social__item">
+                                        <a href="#" class="social__link social__link--vk">
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link social__link--fb">
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link social__link--google">
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link social__link--twitter">
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link social__link--email">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                 </aside>
                 <div class="page-content">
-                    <nav class="breadcrumbs">
-                        <ul class="breadcrumbs__list">
-                            <li class="breadcrumbs__item">
-                                <a href="index.html" class="breadcrumbs__link">
-                                    Главная
-                                </a>
-                            </li>
-                            <li class="breadcrumbs__item breadcrumbs__item--active">
-                                <a href="prices.html" class="breadcrumbs__link">
-                                    Тарифы
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-
+                        <nav class="menu menu--red-theme">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="main.html" class="menu__link menu__link--main-icon">Главная
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="comments.html" class="menu__link menu__link--feed-icon">Отзывы
+                                        </a>
+                                    </li>
+                                    <li class="menu__item menu__item--active">
+                                        <a href="prices.html" class="menu__link menu__link--wallet-icon">Тарифы
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                     <main class="main">
                         <section class="rates">
                             <h1 class="title">Тарифы</h1>
@@ -83,7 +135,7 @@
                                         <img src="././img/prices/rate-2.jpg" class='rates__pic' alt="">
                                         <h3 class="rates__title">«Трое»</h3>
                                     </div>
-                                    <h4 class="rates__price">1 500 руб/мес<br> или 200 руб/сутки</h4>
+                                    <h4 class="rates__price">1 500 руб/мес <br> или 200 руб/сутки</h4>
                                     <div class="rates__desc">
                                         <p>
                                             Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как
@@ -110,7 +162,7 @@
                                     <div class="rates__name">
                                         <img src="././img/prices/rate-4.jpg" class='rates__pic' alt="">
                                         <h3 class="rates__title"><span
-                                                class="rates__text--bold">VIP</span><br>«Безлимит<br> на одного»</h3>
+                                                class="rates__text--bold">VIP</span><br>«Безлимит<br>на одного»</h3>
                                     </div>
                                     <h4 class="rates__price">2 500 руб/мес</h4>
                                     <div class="rates__desc">
@@ -131,9 +183,7 @@
                                     <h4 class="rates__price">Цена рассчитывается индивидуально</h4>
                                     <div class="rates__desc">
                                         <p>
-                                            Оплачивается необходимое число рабочих мест с привязкой к фактическому
-                                            местонахождению. В стоимость включены рабочие столы, мебель для хранения
-                                            документов, отдельный принтер и копировальный автомат.
+                                            Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат.
                                         </p>
                                     </div>
                                 </li>
@@ -145,45 +195,9 @@
                                     <h4 class="rates__price">2 500 руб/час —</h4>
                                     <div class="rates__desc">
                                         <p>
-                                            Аренда среднего зала. Есть возможность раннего бронирования конференц-залов
-                                            со скидкой до 30% при полной предоплате.
+                                            Аренда среднего зала. Есть возможность раннего бронирования конференц-залов со скидкой до 30% при полной предоплате.
                                         </p>
                                     </div>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="partners">
-                            <h2 class="title">Партнёры</h2>
-                            <ul class="partners__list">
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-1.png" class="partners__pic" alt="">
-                                    </a>
-                                </li>
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-2.png" class="partners__pic" alt="">
-                                    </a>
-                                </li>
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-3.png" class="partners__pic" alt="">
-                                    </a>
-                                </li>
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-4.png" class="partners__pic" alt="">
-                                    </a>
-                                </li>
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-5.png" class="partners__pic" alt="">
-                                    </a>
-                                </li>
-                                <li class="partners__item">
-                                    <a href="#" class="partners__link">
-                                        <img src="./img/partners/partner-6.png" class="partners__pic" alt="">
-                                    </a>
                                 </li>
                             </ul>
                         </section>
@@ -201,40 +215,11 @@
                     Автор работы: <b>Прохладов Вадим</b>
                 </p>
 
-                <a href="index.html" class="logo">
+                <a href="main.html" class="logo">
                     <img src="./img/logo-fig.png" class="logo__img" alt="лого компании">
                 </a>
 
-                <div class="social">
-                    <h3 class="social__title">Наши социальные сети</h3>
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./img/social/vk.png" alt="vk">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./img/social/fb.png" alt="facebook">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./img/social/google.png" alt="google+">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./img/social/twitter.png" alt="twitter">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./img/social/mail.png" alt="email">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
             </div>
         </footer>
     </div>

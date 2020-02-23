@@ -1,24 +1,33 @@
+.menu__list {
+    display: flex;
+}
+
 .menu__link {
     display: flex;
     align-items: center;
-    color: #ec1e79;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    transition: .2s;
 }
 
 .menu__link:hover {
-    color: #221f1f;
+    color: #ec1e79;
 }
 
 .menu__item--active .menu__link {
-    color: #221f1f;
-    text-decoration: underline #d4d4d4;
+    color: #ec1e79;
+    text-decoration: underline rgba(236, 30, 121, 0.4);
 }
 
 .menu__item {
-    margin-bottom: 30px;
+    margin-right: 94px;
+}
+
+.menu__item:last-child {
+    margin-right: 0px;
 }
 
 .menu__link:before {
@@ -27,44 +36,140 @@
     flex-shrink: 0;
     width: 20px;
     height: 20px;
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
     margin-right: 17px;
+    background: url('../../img/menu_icons.png');
 }
 
 .menu__link--main-icon:before {
-    background-image: url('../../img/menu/main_icon.png');
+    width: 17px;
+    height: 15px;
+    background-position: -5px -33px;
+
 }
 
 .menu__link--feed-icon:before {
-    background-image: url('../../img/menu/feed_icon.png');
+    width: 20px;
+    height: 18px;
+    background-position: -5px -5px;
 }
 
 .menu__link--wallet-icon:before {
-    background-image: url('../../img/menu/wallet_icon.png');
+    width: 19px;
+    height: 16px;
+    background-position: -65px -5px;
+
 }
 
 .menu__link--main-icon:hover:before {
-    background-image: url('../../img/menu/main_icon_hover.png');
+    width: 17px;
+    height: 15px;
+    background-position: -32px -33px;
 }
 
 .menu__link--feed-icon:hover:before {
-    background-image: url('../../img/menu/feed_icon_hover.png');
+    width: 20px;
+    height: 18px;
+    background-position: -35px -5px;
 }
 
 .menu__link--wallet-icon:hover:before {
-    background-image: url('../../img/menu/wallet_icon_hover.png');
+    width: 19px;
+    height: 16px;
+    background-position: -65px -31px;
 }
 
 .menu__item--active .menu__link--main-icon:before {
-    background-image: url('../../img/menu/main_icon_hover.png');
+    width: 17px;
+    height: 15px;
+    background-position: -32px -33px;
 }
 
 .menu__item--active .menu__link--feed-icon:before {
-    background-image: url('../../img/menu/feed_icon_hover.png');
+    width: 20px;
+    height: 18px;
+    background-position: -35px -5px;
 }
 
 .menu__item--active .menu__link--wallet-icon:before {
-    background-image: url('../../img/menu/wallet_icon_hover.png');
+    width: 19px;
+    height: 16px;
+    background-position: -65px -31px;
+}
+
+.menu--red-theme .menu__link {  
+    color: #ec1e79;
+}
+
+
+.menu--red-theme .menu__link:hover {  
+    color: #000;
+}
+
+.menu--red-theme .menu__item--active .menu__link {
+    color: #000;
+    text-decoration: underline rgba(0, 0, 0, 0.377);
+}
+
+.menu--red-theme .menu__link:before {
+    background: url('../../img/red-black-menu.png');
+}
+
+.menu--red-theme .menu__link--main-icon:before {
+    width: 17px;
+    height: 15px;
+    background-position: 0 -18px;
+
+}
+
+.menu--red-theme .menu__link--feed-icon:before {
+    width: 20px;
+    height: 18px;
+    background-position: 0 0;
+}
+
+.menu--red-theme .menu__link--wallet-icon:before {
+    width: 19px;
+    height: 16px;
+    background-position: -40px 0;
+
+}
+
+.menu--red-theme .menu__link--main-icon:hover:before {
+    width: 17px;
+    height: 15px;
+    background-position: -17px -18px;
+}
+
+.menu--red-theme .menu__link--feed-icon:hover:before {
+    width: 20px;
+    height: 18px;
+    background-position: -20px 0;
+}
+
+.menu--red-theme .menu__link--wallet-icon:hover:before {
+    width: 19px;
+    height: 16px;
+    background-position: -40px -16px;
+}
+
+.menu--red-theme .menu__item--active .menu__link--main-icon:before {
+    width: 17px;
+    height: 15px;
+    background-position: -17px -18px;
+}
+
+.menu--red-theme .menu__item--active .menu__link--feed-icon:before {
+    width: 20px;
+    height: 18px;
+    background-position: -20px 0;
+}
+
+.menu--red-theme .menu__item--active .menu__link--wallet-icon:before {
+    width: 19px;
+    height: 16px;
+    background-position: -40px -16px;
+}
+
+.menu--red-theme {
+    margin-bottom: 21px;
 }
